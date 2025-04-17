@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill</title>
+    <!-- https://www.nykaafashion.com/women/c/6557?root=nav_3&ptype=listing%2Cwomen%2Csale%2Cshop-all%2C3%2Cshop-all&f=discount_filter%3D0-*_&isFilteredUrl=true -->
+
+    <!-- Media Css-->
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- Icon file -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+  
+    
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand me-5" href="#">
+                <img src="image/logo-full.svg" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active fw-semibold fs-6 me-3 py-3" aria-current="page" href="#">Women</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-semibold fs-6 me-3 py-3" href="#">Men</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-semibold fs-6 me-3 py-3" href="#">Kids</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-semibold fs-6 me-3 py-3" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-semibold fs-6 me-3 py-3" href="#">All Brands</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-semibold fs-6 me-3 py-3" href="#">More</a>
+                  </li>
+                </ul>
+            </div>
+            <div class="d-none d-lg-block">
+                <form class="d-flex align-items-center" role="search">
+                    <i class="fas fa-search ps-2 d-inline-block"></i>
+                    <input class="form-control me-2 w-100" type="search" placeholder="Search for products, styles, brands" aria-label="Search">
+                </form>
+            </div>
+            <!-- <div class="ps-3 pe-2 header_icon d-flex align-items-center">
+                <i class="far fa-user fs-5 ps-3 pe-2"></i>
+                <span class="fs-6 fw-semibold">Account</span>
+            </div>
+            <div class="ps-3 header_icon d-flex align-items-center">
+                <i class="far fa-heart fs-5 pe-2"></i>
+                <span class="fs-6 fw-semibold">Wishlist</span>
+            </div>
+            <div class="ps-3 header_icon d-flex align-items-center">
+                <i class="fas fa-shopping-bag fs-5 pe-2"></i>
+                <span class="fs-6 fw-semibold">Cart</span>
+            </div> -->
+          </div>
+          </nav>
+    </header>
+
+    <section id="product">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 col-md-7 col-sm-6 col-6">
+            <div class="row">
+
+              <!-- 1 product -->
+
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/1.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">Ahalyaa</a></h5>
+                    <p class="card-text"><a href="">Women Nude Floral Printed Kurta with Trouser (Set of 2)</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee1">1000</span>
+                      <span class="text-muted ps-1"><del>₹5,500</del></span>
+                      <span class="pro_dis ps-1">75%</span>
+                    </div>
+                    <label for="addcart1" class="cart">
+                      <input type="checkbox" name="" id="addcart1"  class="checkbox"  onchange="check(); changdat(1)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                    <!-- <a href="#" class="btn cart_btn"><i class="fas fa-shopping-cart me-2"></i>Add to cart</a> -->
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- 2 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/2.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">Vastramyaa</a></h5>
+                    <p class="card-text"><a href="">Womens Peach & Blue Yoke Mirror Work Kurta with Pant and Dupatta (Set of 3)</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee2">1564</span>
+                      <span class="text-muted ps-1"><del>₹4,599</del></span>
+                      <span class="pro_dis ps-1">66%</span>
+                    </div>
+                    <label for="addcart2" class="cart">
+                      <input type="checkbox" name="" id="addcart2"  class="checkbox"  onchange="check(); changdat(2)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                    <!-- <a href="#" class="btn cart_btn"><i class="fas fa-shopping-cart me-2"></i>Add to cart</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/3.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">Nyri</a></h5>
+                    <p class="card-text"><a href="">Modern Metallic Gold Tone With Leaf Sequined Border Organza Bronze Saree & Blouse Pc.</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee3">2409</span>
+                      <span class="text-muted ps-1"><del>₹3,999</del></span>
+                      <span class="pro_dis ps-1">40%</span>
+                    </div>
+                    <label for="addcart3" class="cart">
+                      <input type="checkbox" name="" id="addcart3"  class="checkbox"  onchange="check(); changdat(3)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                    <!-- <a href="#" class="btn cart_btn"><i class="fas fa-shopping-cart me-2"></i>Add to cart</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/4.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">ORDINAREE</a></h5>
+                    <p class="card-text"><a href="">Floral Firecracker Printed Mini Dress</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee4">3230</span>
+                      <span class="text-muted ps-1"><del>₹3,800</del></span>
+                      <span class="pro_dis ps-1">15%</span>
+                    </div>
+                    <label for="addcart4" class="cart">
+                      <input type="checkbox" name="" id="addcart4"  class="checkbox" onchange="check(); changdat(4)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                    <!-- <a href="#" class="btn cart_btn"><i class="fas fa-shopping-cart me-2"></i>Add to cart</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- 5 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/5.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">Mabish By Sonal Jain</a></h5>
+                    <p class="card-text"><a href="">Shirt Dress with Front Drape</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee5">1040</span>
+                      <span class="text-muted ps-1"><del>₹2,599</del></span>
+                      <span class="pro_dis ps-1">60%</span>
+                    </div>
+                    <label for="addcart5" class="cart">
+                      <input type="checkbox" name="" id="addcart5"  class="checkbox" onchange="check(); changdat(5)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                    <!-- <a href="#" class="btn cart_btn"><i class="fas fa-shopping-cart me-2"></i>Add to cart</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- 6 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/6.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">RSVP by Nykaa Fashion</a></h5>
+                    <p class="card-text"><a href="">Pink And Black Textured Short Bodycon Tube Dress</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee6">2307</span>
+                      <span class="text-muted ps-1"><del>₹3,295</del></span>
+                      <span class="pro_dis ps-1">30%</span>
+                    </div>
+                    <label for="addcart6" class="cart">
+                      <input type="checkbox" name="" id="addcart6"  class="checkbox" onchange="check(); changdat(6)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                    <!-- <a href="#" class="btn cart_btn"><i class="fas fa-shopping-cart me-2"></i>Add to cart</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- 7 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/7.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">GAYRAA</a></h5>
+                    <p class="card-text"><a href="">Black Floral Printed Anarkali Kurta with Pant and Dupatta (Set of 3)</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee7">2975</span>
+                      <span class="text-muted ps-1"><del>₹3,499</del></span>
+                      <span class="pro_dis ps-1">15%</span>
+                    </div>
+                    <label for="addcart7" class="cart">
+                      <input type="checkbox" name="" id="addcart7"  class="checkbox" onchange="check(); changdat(7)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                    <!-- <a href="#" class="btn cart_btn"><i class="fas fa-shopping-cart me-2"></i>Add to cart</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- 8 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/8.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">Likha</a></h5>
+                    <p class="card-text"><a href="">Wine Satin Solid Embellished and Sequined Saree with Unstitched Blouse LIKSAR19 (Free Size)</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee8">3360</span>
+                      <span class="text-muted ps-1"><del>₹4,199</del></span>
+                      <span class="pro_dis ps-1">20%</span>
+                    </div>
+                    <label for="addcart8" class="cart">
+                      <input type="checkbox" name="" id="addcart8"  class="checkbox" onchange="check(); changdat(8)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                    <!-- <a href="#" class="btn cart_btn"><i class="fas fa-shopping-cart me-2"></i>Add to cart</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- 9 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/9.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">NUD</a></h5>
+                    <p class="card-text"><a href="">Lapiz Blue Bandhani Printed Anarkali Kurta with Dupatta (Set of 2)  </a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee9">3150</span>
+                      <span class="text-muted ps-1"><del>₹4,199</del></span>
+                      <span class="pro_dis ps-1">25%</span>
+                    </div>
+                    <label for="addcart9" class="cart">
+                      <input type="checkbox" name="" id="addcart9"  class="checkbox" onchange="check(); changdat(9)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                    <!-- <a href="#" class="btn cart_btn"><i class="fas fa-shopping-cart me-2"></i>Add to cart</a> -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- 10 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/10.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">RSVP by Nykaa Fashion</a></h5>
+                    <p class="card-text"><a href="">Off White Solid Strappy Dress </a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price  fw-medium" id="rupee10">4197</span>
+                      <span class="text-muted ps-1"><del>₹5,995</del></span>
+                      <span class="pro_dis ps-1">30%</span>
+                    </div>
+                    <label for="addcart10" class="cart">
+                      <input type="checkbox" name="" id="addcart10"  class="checkbox" onchange="check(); changdat(10)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 11 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/11.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">Nyri</a></h5>
+                    <p class="card-text"><a href="">Party All Over Tiny Stones With Scallop Border Organza Peach Saree & Unstitched Blouse</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price  fw-medium"  id="rupee11">3600</span>
+                      <span class="text-muted ps-1"><del>₹5,999</del></span>
+                      <span class="pro_dis ps-1">40%</span>
+                    </div>
+                    <label for="addcart11" class="cart">
+                      <input type="checkbox" name="" id="addcart11"  class="checkbox" onchange="check(); changdat(11)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 12 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/12.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">Mabish By Sonal Jain</a></h5>
+                    <p class="card-text"><a href="">Double Breasted Sheer Top (Set of 2)</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium"  id="rupee12">1216</span>
+                      <span class="text-muted ps-1"><del>₹3,199</del></span>
+                      <span class="pro_dis ps-1">62%</span>
+                    </div>
+                    <label for="addcart12" class="cart">
+                      <input type="checkbox" name="" id="addcart12"  class="checkbox" onchange="check(); changdat(12)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 13 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/13.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">GAYRAA</a></h5>
+                    <p class="card-text"><a href="">Purple Embroidered Handworked Angarkha Pant with Dupatta (Set of 3)</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee13">2625</span>
+                      <span class="text-muted ps-1"><del>₹3,499</del></span>
+                      <span class="pro_dis ps-1">25%</span>
+                    </div>
+                    <label for="addcart13" class="cart">
+                      <input type="checkbox" name="" id="addcart13" class="checkbox" onchange="check(); changdat(13)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+               <!-- 14 product -->
+               <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/14.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">BLACK SCISSOR</a></h5>
+                    <p class="card-text"><a href="">Fit and Flared Anarkali Style Maxi Dress</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee14">1300</span>
+                      <span class="text-muted ps-1"><del>₹4,499</del></span>
+                      <span class="pro_dis ps-1">74%</span>
+                    </div>
+                    <label for="addcart14" class="cart">
+                      <input type="checkbox" name="" id="addcart14" class="checkbox" onchange="check(); changdat(14)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+               <!-- 15 product -->
+               <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/15.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">Nyri</a></h5>
+                    <p class="card-text"><a href="">Maroon Georgette Mirror Work Party Saree and Unstitched Blouse</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee15">1647</span>
+                      <span class="text-muted ps-1"><del>₹2,699</del></span>
+                      <span class="pro_dis ps-1">39%</span>
+                    </div>
+                    <label for="addcart15" class="cart">
+                      <input type="checkbox" name="" id="addcart15" class="checkbox" onchange="check(); changdat(15)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 16 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/16.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">Stylum</a></h5>
+                    <p class="card-text"><a href="">Womens Printed And Embroidered Rayon Kurti With Dhoti Pant (Set of 2)</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee16">1056</span>
+                      <span class="text-muted ps-1"><del>₹3,199</del></span>
+                      <span class="pro_dis ps-1">67%</span>
+                    </div>
+                    <label for="addcart16" class="cart">
+                      <input type="checkbox" name="" id="addcart16" class="checkbox" onchange="check(); changdat(16)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 17 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/17.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">RSVP by Nykaa Fashion</a></h5>
+                    <p class="card-text"><a href="">Green Overlap Sequin Backless Slit Party Gown</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee17">5396</span>
+                      <span class="text-muted ps-1"><del>₹5,995</del></span>
+                      <span class="pro_dis ps-1">10%</span>
+                    </div>
+                    <label for="addcart17" class="cart">
+                      <input type="checkbox" name="" id="addcart17" class="checkbox" onchange="check(); changdat(17)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 18 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/18.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">InWeave</a></h5>
+                    <p class="card-text"><a href="">Mustard Lurex Flared V Neck Kurta and Palazzo (Set of 2)</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee18">1500</span>
+                      <span class="text-muted ps-1"><del>₹4,999</del></span>
+                      <span class="pro_dis ps-1">70%</span>
+                    </div>
+                    <label for="addcart18" class="cart">
+                      <input type="checkbox" name="" id="addcart18" class="checkbox" onchange="check(); changdat(18)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+               <!-- 19 product -->
+               <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/19.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">Mabish By Sonal Jain</a></h5>
+                    <p class="card-text"><a href="">Multi-Color Backless Overlap Asymmetric Dress</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee19">1665</span>
+                      <span class="text-muted ps-1"><del>₹4,999</del></span>
+                      <span class="pro_dis ps-1">63%</span>
+                    </div>
+                    <label for="addcart19" class="cart">
+                      <input type="checkbox" name="" id="addcart19" class="checkbox" onchange="check(); changdat(19)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 20 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/20.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">BAVARIA</a></h5>
+                    <p class="card-text"><a href="">Black Magic Bohemian Palazzo Set - Black (Set Of 2)</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee20">1665</span>
+                      <span class="text-muted ps-1"><del>₹4,999</del></span>
+                      <span class="pro_dis ps-1">63%</span>
+                    </div>
+                    <label for="addcart20" class="cart">
+                      <input type="checkbox" name="" id="addcart20" class="checkbox" onchange="check(); changdat(20)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 21 product -->
+              <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/21.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">BAVARIAGAYRAA</a></h5>
+                    <p class="card-text"><a href="">Pink Floral Handworked Anarkali Pant with Dupatta (Set of 3)</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee21">3034</span>
+                      <span class="text-muted ps-1"><del>₹3,699</del></span>
+                      <span class="pro_dis ps-1">18%</span>
+                    </div>
+                    <label for="addcart21" class="cart">
+                      <input type="checkbox" name="" id="addcart21" class="checkbox" onchange="check(); changdat(21)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                      </label>
+                  </div>
+                </div>
+              </div>
+
+               <!-- 22 product -->
+               <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/22.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">ORDINAREE</a></h5>
+                    <p class="card-text"><a href="">Pink Neon Nectar Skirt (Set of 3)</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee22">4675</span>
+                      <span class="text-muted ps-1"><del>₹5,500</del></span>
+                      <span class="pro_dis ps-1">15%</span>
+                    </div>
+                    <label for="addcart22" class="cart">
+                      <input type="checkbox" name="" id="addcart22" class="checkbox" onchange="check(); changdat(22)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+               <!-- 23 product -->
+               <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/23.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">NUD</a></h5>
+                    <p class="card-text"><a href="">Lapiz Blue Bandhani Printed Anarkali Kurta with Dupatta (Set of 2)</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee23">3150</span>
+                      <span class="text-muted ps-1"><del>₹4,199</del></span>
+                      <span class="pro_dis ps-1">25%</span>
+                    </div>
+                    <label for="addcart23" class="cart">
+                      <input type="checkbox" name="" id="addcart23" class="checkbox" onchange="check(); changdat(23)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+               <!-- 24 product -->
+               <div class="col-12 mt-4 col-xl-3 col-md-6 ">
+                <div class="card border-0">
+                  <a href=""><img src="image/24.jpg" class="card-img-top img-fluid" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6"><a href="">BLACK SCISSOR</a></h5>
+                    <p class="card-text"><a href="">Floral Printed Tabby Organza Anarkali with Dupatta-Pink (Set of 2)</a></p>
+                    <div class="mb-2">
+                      <span>₹</span>
+                      <span class="pro_price fw-medium" id="rupee24">1591</span>
+                      <span class="text-muted ps-1"><del>₹6,363</del></span>
+                      <span class="pro_dis ps-1">75%</span>
+                    </div>
+                    <label for="addcart24" class="cart">
+                      <input type="checkbox" name="" id="addcart24" class="checkbox" onchange="check(); changdat(24)">
+                      <span class="chk_box">
+                        <i class="fas fa-shopping-cart pe-1 no"></i>
+                        <span class="no">Add to cart</span>
+                        <i class="fas fa-trash-alt pe-1 yes"></i>
+                        <span class="yes name">Remove cart</span>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+
+          <div class="col-xl-3 col-md-5 col-sm-6 col-6">
+           <div class="sticky-top"  >
+              <div class="input_btn">
+                <input type="text" class="w-50" id="code" value="" placeholder="Enter cupon code" >
+                <button value="submit" type="button" onclick="submit()">submit</button>
+                <!-- <input type="submit" onclick="submit()" name=""> -->
+            </div>
+            <hr>
+
+            <div class="bil_title d-flex justify-content-between">
+              <p>Total Items:</p>
+              <p id="items"></p>
+            </div>
+
+            <div class="bill_title d-flex justify-content-between">
+              <p>Total Amount:</p>
+              <p id="amounts" class="ms-3"></p>
+            </div>
+
+            <div class="bil_title d-flex justify-content-between">
+              <p>GST (18%):</p>
+              <p id="gst" class="ms-3"></p>
+            </div>
+            <hr>
+
+            <div class="bill_title d-flex justify-content-between">
+              <p>Amount:</p>
+              <p id="total_amount" class="ms-3"></p>
+            </div>
+
+            <div class="bill_title d-flex justify-content-between">
+              <p>Discount:</p>
+              <p id="discount" class="ms-3"></p>
+            </div>
+            
+            <hr>
+            <div class="bill_title d-flex justify-content-between">
+              <p>Payable Amount:</p>
+              <p id="payable_amt" class="ms-3"></p>
+            </div>
+
+            <hr>
+            <div class="coupen text-center fw-bold fs-5"> 
+              Coupen Code
+            </div>
+            <div class="coupon_code_dis p-3 border rounded-1 mt-2"> 
+              <p>#111 25% Discount</p>  
+              <p>#222 50% Discount</p>
+              <p>#7281 80% Discount</p>
+            </div>
+
+           </div>
+              
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+      
+
+    <script type="text/javascript">
+    
+   
+</script>
+   
+
+
+</body>
+</html>
